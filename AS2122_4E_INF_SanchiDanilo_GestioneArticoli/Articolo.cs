@@ -11,9 +11,9 @@ namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
         string codice;
         string descrizione;
         string UnitadiMisura;
-        double prezzo;
+        string prezzo;
 
-        public Articolo(string codice, string descrizione, string unitadiMisura, double prezzo)
+        public Articolo(string codice, string descrizione, string unitadiMisura, string prezzo)
         {
             this.codice = codice;
             this.descrizione = descrizione;
@@ -23,6 +23,6 @@ namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
         public string Codice { get { return codice; } }
         public string Descrizione { get { return descrizione; } }
         public string UnitaDiMisura { get { return UnitaDiMisura; } }
-        public double Prezzo { get { return prezzo; } }
+        public string Prezzo { get { return prezzo; } }
     }
 }
