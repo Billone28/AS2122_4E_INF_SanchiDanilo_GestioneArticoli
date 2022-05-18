@@ -6,5 +6,10 @@ namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
