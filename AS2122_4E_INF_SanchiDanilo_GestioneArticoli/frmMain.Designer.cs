@@ -1,6 +1,6 @@
 ﻿namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -37,7 +37,7 @@
             this.txtDescrizione = new System.Windows.Forms.TextBox();
             this.txtPrezzo = new System.Windows.Forms.TextBox();
             this.cmbUnitadiMisura = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnArticolo = new System.Windows.Forms.Button();
             this.cmbVisualizza = new System.Windows.Forms.ComboBox();
             this.btnEsegui = new System.Windows.Forms.Button();
             this.lstArticoli = new System.Windows.Forms.ListBox();
@@ -117,14 +117,14 @@
             this.cmbUnitadiMisura.Size = new System.Drawing.Size(44, 28);
             this.cmbUnitadiMisura.TabIndex = 8;
             // 
-            // button1
+            // btnArticolo
             // 
-            this.button1.Location = new System.Drawing.Point(30, 206);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 29);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnArticolo.Location = new System.Drawing.Point(30, 206);
+            this.btnArticolo.Name = "btnArticolo";
+            this.btnArticolo.Size = new System.Drawing.Size(212, 29);
+            this.btnArticolo.TabIndex = 9;
+            this.btnArticolo.Text = "Aggiungi/modifica articolo";
+            this.btnArticolo.UseVisualStyleBackColor = true;
             // 
             // cmbVisualizza
             // 
@@ -161,7 +161,7 @@
             this.Controls.Add(this.lstArticoli);
             this.Controls.Add(this.btnEsegui);
             this.Controls.Add(this.cmbVisualizza);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnArticolo);
             this.Controls.Add(this.cmbUnitadiMisura);
             this.Controls.Add(this.txtPrezzo);
             this.Controls.Add(this.txtDescrizione);
@@ -190,7 +190,7 @@
         private TextBox txtDescrizione;
         private TextBox txtPrezzo;
         private ComboBox cmbUnitadiMisura;
-        private Button button1;
+        private Button btnArticolo;
         private ComboBox cmbVisualizza;
         private Button btnEsegui;
         private ListBox lstArticoli;
