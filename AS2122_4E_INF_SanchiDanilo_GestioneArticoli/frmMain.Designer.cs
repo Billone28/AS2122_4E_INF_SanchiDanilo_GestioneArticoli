@@ -173,7 +173,7 @@
             this.Controls.Add(this.lblArticolo);
             this.Name = "Form1";
             this.Text = "Sanchi Danilo, 4E, Lab.2.2, Gestione Articoli";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.btnAggiungi_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

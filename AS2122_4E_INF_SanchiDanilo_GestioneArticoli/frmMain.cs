@@ -11,7 +11,7 @@ namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
             articoli = new Dictionary<string, Articolo>();        
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnAggiungi_Click(object sender, EventArgs e)
         {
             if (articoli.ContainsKey(txtCodice.Text))
             {
@@ -20,6 +20,13 @@ namespace AS2122_4E_INF_SanchiDanilo_GestioneArticoli
             else
             {
                 articoli.Add(txtCodice.Text, new Articolo (txtCodice.Text, cmbUnitadiMisura.Text, txtDescrizione.Text, txtPrezzo.Text));
+            }
+        }
+        private void btnEsegui_Click(object sender, EventArgs e)
+        {
+            foreach (KeyValuePair<string, Articolo> a in articoli)
+            {
+                lstArticoli.Items.Add(a.ToString());
             }
         }
     }
